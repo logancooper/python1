@@ -1,20 +1,20 @@
 day = int(input('Day (0-6)? '))
 
-if day == 1:
+if day == 0:
     print("Sunday")
-elif day == 2:
+elif day == 1:
     print("Monday")
-elif day == 3:
+elif day == 2:
     print("Tuesday")
-elif day == 4:
+elif day == 3:
     print("Wednesday")
-elif day == 5:
+elif day == 4:
     print("Thursday")
-elif day == 6:
+elif day == 5:
     print("Friday")
-elif day == 7:
+elif day == 6:
     print("Saturday")
-elif day > 7:
+elif day > 6:
     print("invalid input")
-elif day < 1:
+elif day < 0:
     print("invalid input")                 
