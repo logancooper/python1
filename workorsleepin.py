@@ -1,7 +1,9 @@
 day = int(input('Day (0-6)? '))
 
-if day == 1:
+if day == 0:
     print("Sleep In")
+elif day == 1:
+    print("Go To Work")
 elif day == 2:
     print("Go To Work")
 elif day == 3:
@@ -11,10 +13,8 @@ elif day == 4:
 elif day == 5:
     print("Go To Work")
 elif day == 6:
-    print("Go To Work")
-elif day == 7:
     print("Sleep In")
-elif day > 7:
+elif day > 6:
     print("invalid input")
-elif day < 1:
+elif day < 0:
     print("invalid input")   
